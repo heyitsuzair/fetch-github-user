@@ -1,6 +1,6 @@
 {
   "name": "fetch-github-user",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "🎩 A CLI that give you details of Github user using Github users API",
   "main": "index.js",
   "scripts": {
