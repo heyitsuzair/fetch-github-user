@@ -1,0 +1,35 @@
+{
+  "name": "fetch-github-user",
+  "version": "1.0.0",
+  "description": "🎩 A CLI that give you details of Github user using Github users API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gh-user": "index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyitsuzair/fetch-github-user.git"
+  },
+  "keywords": [
+    "fetch-github-user",
+    "github-user",
+    "github-users-api"
+  ],
+  "author": "Muhammad Uzair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyitsuzair/fetch-github-user/issues"
+  },
+  "homepage": "https://github.com/heyitsuzair/fetch-github-user#readme",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "chalk": "^5.2.0",
+    "cli-table": "^0.3.11",
+    "inquirer": "^9.1.5",
+    "ora": "^6.1.2"
+  }
+}
